@@ -26,7 +26,7 @@ while True:
     elif hue_value < 131:
         color = "BLUE"
     elif hue_value < 178:
-        color = "VIOLET"
+        color = "NONE"
     else:
         color = "RED"
     pixel_center_bgr = frame[cy, cx]
